@@ -14,8 +14,8 @@ const currentUser = (state = {}, action) => {
                 user: {},
                 loggedIn: false
             }
-            default:
-                return state;
+        default:
+            return state;
 
     }
 }

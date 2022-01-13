@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import allAction from './action';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  Calculator from './component/culculator'
+import  Userdata from './component/userdata';
 
 const App = () => {
 
@@ -43,6 +44,7 @@ const App = () => {
           <button style={{backgroundColor:'red'}} onClick={() => dispatch(allAction.counterAction.decrement())} >decrement</button>
            <br/> <br/>
           <Calculator />
+          <Userdata/>
     </div>
   );
 }
